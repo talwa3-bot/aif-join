@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>AI Finance</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #061860;
+      color: #fff;
+      font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    p {
+      max-width: 32rem;
+      margin: 0;
+      padding: 1.5rem;
+      line-height: 1.7;
+      font-size: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <p id="msg">הקישור פג. לפרטים על קהילת AI Finance פנו לרו"ח טל ולנשטין בלינקדאין.</p>
+  <script>
+    (function () {
+      var expiry = Date.parse("2026-11-24T21:59:00Z");
+      var payload = "aHR0cHM6Ly9jaGF0LndoYXRzYXBwLmNvbS9GVUZiNnRuazZ2eDRDZjN3TnRqcnlHP21vZGU9Z2lfdA==";
+      if (Date.now() < expiry) {
+        location.replace(atob(payload));
+      }
+    })();
+  </script>
+</body>
+</html>
